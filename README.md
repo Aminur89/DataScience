@@ -10,7 +10,7 @@ Please view [my e-portfolio](https://aminur89.github.io/md-aminur-rahman/).
 * Unit 1: Introduction To Data Science
 * Unit 2: Data Management Lifecycle (DML)
 * Unit 3: Introduction to Python Programming Language
-  	- [Own responses to peers]([https://aminur89.github.io/md-aminur-rahman/TDP_PCOM7E August 2023_ Initial Post _ UoEO.html)(TDP_PCOM7E August 2023_ Initial Post _ UoEO.html](https://github.com/Aminur89/md-aminur-rahman/blob/074ee074896a5d8670e82aa2cbcd06f714c0260c/TDP_PCOM7E%20August%202023_%20Initial%20Post%20_%20UoEO.html) about the future of the scientists and their role and responsibilities.  
+  	- [Initial Post]()  about the future of the scientists and their role and responsibilities.  
 * Unit 4: Data Representation using Database Concepts
 * Unit 5: Advanced SQL
 * Unit 6: An Introduction to Algorithms and Basic Programming Concepts
