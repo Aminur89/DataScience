@@ -1,32 +1,31 @@
-# e-Portfolio as an MSc Candidate in Computer Science at the University of Essex
+# e-Portfolio as an MSc Candidate in Data Science at the University of Essex
 
-This e-portfolio contains the outcomes from my learning journey throughout my MSc in Computer Science at the University of Essex (UK).
+This e-portfolio contains the outcomes from my learning journey throughout my MSc in Data Science at the University of Essex (UK).
  
-Please view [my e-portfolio](https://marianne-manaog.github.io/e_portfolio/).
+Please view [my e-portfolio](https://aminur89.github.io/md-aminur-rahman/).
 
 
-## Module 1: Launching into Computer Science
+## Module 1: The Data Professional
 ### Units of Module 1
-* Unit 1: Computing as a Profession – Responsibilities and Challenges
-* Unit 2: Introduction to Computer Architecture and the Functionality
-* Unit 3: Emerging Trends in Computer Science
-* Unit 4: Computing Infrastructure and Network
-* Unit 5: Software as a Tool - Its Functionality and Development Methodologies
-* Unit 6: System Software – Operating Systems
-* Unit 7: Data Abstraction
-* Unit 8: An Introduction to Algorithms and Basic Programming Concepts
-* Unit 9: Solving Problems Using Python
-	- [Example of project on a contact book application developed in Python](https://github.com/marianne-manaog/ContactBookPythonApplication).
-* Unit 10: Data Representation using Database Concepts
-* Unit 11: Advanced SQL
-	- [SQL queries](https://github.com/marianne-manaog/sql-assignment-essex) created to answer specific questions set in an assignment.
-* Unit 12: Research Topics in Computer Science – Data Science, AI and Standards 
+* Unit 1: Introduction To Data Science
+* Unit 2: Data Management Lifecycle (DML)
+* Unit 3: Introduction to Python Programming Language
+  	- [Initial Post]() about the future of the scientists and their role and responsibilities.  
+* Unit 4: Data Representation using Database Concepts
+* Unit 5: Advanced SQL
+* Unit 6: An Introduction to Algorithms and Basic Programming Concepts
+* Unit 7: Data Collection Using Python
+* Unit 8: Data Pre-processing
+* Unit 9: Data Analysis and Visualisation Principles
+* Unit 10: Business Analysis
+* Unit 11: ArcGIS Storytelling
+* Unit 12: Emerging Technologies in Data Management and their Impact - Blockchain
 
 
-## Module 2: Object-oriented Information Systems
+## Module 2: Numerical Analysis
 ### Units of Module 2
-* Unit 1: Introduction to Information Systems
-	- [Own post](https://github.com/marianne-manaog/oois-python-sql-uml/blob/main/src/unit_1_exercises/Information_system_failure_collaborative_discussion_unit_1.docx) as a part of a collaborative discussion on information system failures, with focus on an AI-based system for guiding investment decisions
+* Unit 1: Types and Sources of Data and an Introduction to R
+	
 * Unit 2: Information Systems and their Importance
 	- [Own responses to peers](https://github.com/marianne-manaog/oois-python-sql-uml/blob/main/src/unit_2_exercises/Peer%20responses%20to%20collaborative%20discussion%20on%20Information%20Systems%20Failures.docx) during a collaborative discussion on information system failures
 * Unit 3: Fundamentals of Object-Oriented Design
@@ -59,16 +58,16 @@ Please view [my e-portfolio](https://marianne-manaog.github.io/e_portfolio/).
 * Unit 12: The Future of Information Systems
 	- [Blog post on emerging trends in information systems](https://github.com/marianne-manaog/oois-python-sql-uml/blob/main/src/unit_12_exercises/Blog_post_on_emerging_trends_in_information_systems_unit_12.docx)
 
-## Module 3: Secure Software Development (Computer Science)
+## Module 3: Deciphering Big Data
 
 
-## Module 4: Network and Information Security Management
+## Module 4: 
 
 
-## Module 5: Software Engineering Project Management
+## Module 5: 
 
 
-## Module 6: Research Methods and Professional Practice
+## Module 6: 
 
 
 ## MSc Computing Project and Dissertation
