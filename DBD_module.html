@@ -334,6 +334,16 @@
 												<h4>Database Implementation</h4>
 												<p>I implemented the database in an SQL-compliant database management system. The tables were created using SQL's CREATE TABLE statement, with constraints added to enforce referential integrity:</p>
 												<img src="Dechipering Big Data/SQL Code.PNG" />
+												<ol>
+													<h4>Database Testing</h4>
+													<p>To validate the database, I performed a series of insertions, updates, and deletions to test referential integrity:</p>
+
+													<li><b>Insertion Test:</b> Attempted to insert data with non-existing foreign keys to ensure it was rejected.</li>
+													<li><b>Update Test:</b> Tried to update primary key values and ensured cascading updates were handled correctly, if applicable.</li>
+													<li><b>Deletion Test:</b> Attempted to delete records that would violate referential integrity to ensure the action was rejected.</li>
+													
+												</ol>
+												<p>These tests confirmed that the database maintains referential integrity, as all inappropriate actions were prevented by the database's constraints.</p>
 											</details>
 												<ul class="actions">
 													
