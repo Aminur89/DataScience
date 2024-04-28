@@ -270,6 +270,16 @@
 												<header class="major">
 													<h3>Unit 7: Constructing Normalised Tables and Database Build</h3>
 												</header>
+												<ul>
+													<p>This week explored data normalization, transforming an unnormalized table into a 3NF model. We learned about data relationships, normalization techniques (1NF, 2NF, 3NF), and constraints for data integrity.</p>
+													<p>Building a relational database solidified our understanding of normalized data. Key takeaways include:</p>
+													<li>Importance of normalization for efficient databases.</li>
+													<li>Identifying functional dependencies for effective normalization.</li>
+													<li>Designing relational database models.</li>
+													<br/>
+												
+													<p>I look forward to exploring complex database design, querying, and different database systems.</p>
+												</ul>
 											<details>
 												<summary>Normalisation Task</summary>
 												<h4>Unnormalized Data</h4>
@@ -285,6 +295,12 @@
 												<h4>Second Normal Form (2NF)</h4>
 												<p>To reach 2NF, we must remove partial dependencies of non-key attributes on the primary key.</p>
 												<p><b>Remove partial dependencies:</b> Separate the data into multiple tables to ensure that each non-key attribute is fully functionally dependent on the primary key.</p>
+												<img src="Dechipering Big Data/2NF Tables.PNG" />
+												<h4>Third Normal Form (3NF)</h4>
+												<p>In 3NF, we remove transitive dependencies; no non-key attribute should depend on another non-key attribute.</p>
+												<p><b>Remove transitive dependencies:</b> If a non-key attribute depends on another non-key attribute, we create a separate table.</p>
+												<img src="Dechipering Big Data/3NF Tables.PNG" />
+												<p>Each table now contains information without redundancy, and all attributes are dependent on the primary key.</p>
 											</details>	
 												<ul class="actions">
 													
