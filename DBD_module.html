@@ -301,7 +301,50 @@
 												<p><b>Remove transitive dependencies:</b> If a non-key attribute depends on another non-key attribute, we create a separate table.</p>
 												<img src="Dechipering Big Data/3NF Tables.PNG" />
 												<p>Each table now contains information without redundancy, and all attributes are dependent on the primary key.</p>
-											</details>	
+											</details>
+											<details>
+												<summary>Data Build Task</summary>
+													<h4>Introduction</h4>
+													<p>With the normalization task completed, my focus shifted to constructing a relational database system that reflects the relationships and constraints inherent in the normalized data. This involved creating tables with designated primary and secondary (foreign) keys, establishing referential integrity to ensure data consistency.</p>
+													<h4>Database Design</h4>
+													<ul>
+														<h5>Students Table</h5>
+														<li><b>Student Number</b> (Primary Key): A unique identifier for each student.</li>
+														<li><b>Student Name:</b> The full name of the student.</li>
+														<li><b>Support:</b> Indicator of whether the student receives support.</li>
+														<li><b>Date of Birth:</b> The student’s date of birth.</li>
+														
+														<h5>Course Table</h5>
+														<li><b>Course Name</b> (Primary Key): A unique identifier for each course.</li>
+														<li><b>Exam Board:</b> The exam board associated with the course.</li>
+
+														<h5>Teachers Table</h5>
+														<li><b>Teacher Name</b> (Primary Key): A unique identifier for each teacher.</li>
+
+														<h5>Course Enrollments Table</h5>
+														<li><b>Enrollment ID</b> (Primary Key): A unique identifier for each enrollment.</li>
+														<li><b>Student Number</b> (Foreign Key): Links to the Students table.</li>
+														<li><b>Course Name</b> (Foreign Key): Links to the Courses table.</li>
+														<li><b>Exam Score:</b> The student's score for the particular course.</li>
+
+														<h5>Course Teachers Table</h5>
+														<li><b>Course Name</b> (Foreign Key): Links to the Courses table.</li>
+														<li><b>Teacher Name</b> (Foreign Key): Links to the Teachers table.</li>
+													</ul>
+												<h4>Database Implementation</h4>
+												<p>I implemented the database in an SQL-compliant database management system. The tables were created using SQL's CREATE TABLE statement, with constraints added to enforce referential integrity:</p>
+												<img src="Dechipering Big Data/SQL Code.PNG" />
+												<ol>
+													<h4>Database Testing</h4>
+													<p>To validate the database, I performed a series of insertions, updates, and deletions to test referential integrity:</p>
+
+													<li><b>Insertion Test:</b> Attempted to insert data with non-existing foreign keys to ensure it was rejected.</li>
+													<li><b>Update Test:</b> Tried to update primary key values and ensured cascading updates were handled correctly, if applicable.</li>
+													<li><b>Deletion Test:</b> Attempted to delete records that would violate referential integrity to ensure the action was rejected.</li>
+													
+												</ol>
+												<p>These tests confirmed that the database maintains referential integrity, as all inappropriate actions were prevented by the database's constraints.</p>
+											</details>
 												<ul class="actions">
 													
 												</ul>
